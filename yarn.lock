@@ -4405,6 +4405,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"io-ateliertech@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "io-ateliertech@workspace:."
+  dependencies:
+    "@prettier/plugin-xml": "npm:^3.4.2"
+    "@tailwindcss/postcss": "npm:^4.1.16"
+    "@types/node": "npm:^24.9.1"
+    "@typescript-eslint/parser": "npm:^8.46.2"
+    "@vitejs/plugin-vue": "npm:^6.0.1"
+    "@vue/eslint-config-prettier": "npm:^10.2.0"
+    "@vue/eslint-config-typescript": "npm:^14.6.0"
+    "@vue/tsconfig": "npm:^0.8.1"
+    autoprefixer: "npm:^10.4.21"
+    cssnano: "npm:^7.1.1"
+    eslint: "npm:^9.38.0"
+    eslint-define-config: "npm:^2.1.0"
+    eslint-plugin-import: "npm:^2.32.0"
+    eslint-plugin-unused-imports: "npm:^4.3.0"
+    eslint-plugin-vue: "npm:^10.5.1"
+    postcss: "npm:^8.5.6"
+    postcss-import: "npm:^16.1.1"
+    postcss-nesting: "npm:^13.0.2"
+    prettier: "npm:^3.6.2"
+    prettier-plugin-tailwindcss: "npm:^0.7.1"
+    tailwindcss: "npm:^4.1.16"
+    typescript: "npm:^5.9.3"
+    unplugin-fonts: "npm:^1.4.0"
+    vite: "npm:^7.1.12"
+    vite-plugin-pwa: "npm:^1.1.0"
+    vue: "npm:^3.5.22"
+    vue-eslint-parser: "npm:^10.2.0"
+    vue-tsc: "npm:^3.1.2"
+    web-vitals: "npm:^5.1.0"
+  languageName: unknown
+  linkType: soft
+
 "ip-address@npm:^10.0.1":
   version: 10.0.1
   resolution: "ip-address@npm:10.0.1"
@@ -7247,42 +7283,6 @@ __metadata:
   checksum: 10c0/44424733b9a75cde2c7c3ad03427264cc39eb0c1300f3157d4476b7faf9ff3d567b725b17a60bcfb03f42eb6c32a190473d27f4e1866081e019b3e1cd0e53799
   languageName: node
   linkType: hard
-
-"vue-site@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "vue-site@workspace:."
-  dependencies:
-    "@prettier/plugin-xml": "npm:^3.4.2"
-    "@tailwindcss/postcss": "npm:^4.1.16"
-    "@types/node": "npm:^24.9.1"
-    "@typescript-eslint/parser": "npm:^8.46.2"
-    "@vitejs/plugin-vue": "npm:^6.0.1"
-    "@vue/eslint-config-prettier": "npm:^10.2.0"
-    "@vue/eslint-config-typescript": "npm:^14.6.0"
-    "@vue/tsconfig": "npm:^0.8.1"
-    autoprefixer: "npm:^10.4.21"
-    cssnano: "npm:^7.1.1"
-    eslint: "npm:^9.38.0"
-    eslint-define-config: "npm:^2.1.0"
-    eslint-plugin-import: "npm:^2.32.0"
-    eslint-plugin-unused-imports: "npm:^4.3.0"
-    eslint-plugin-vue: "npm:^10.5.1"
-    postcss: "npm:^8.5.6"
-    postcss-import: "npm:^16.1.1"
-    postcss-nesting: "npm:^13.0.2"
-    prettier: "npm:^3.6.2"
-    prettier-plugin-tailwindcss: "npm:^0.7.1"
-    tailwindcss: "npm:^4.1.16"
-    typescript: "npm:^5.9.3"
-    unplugin-fonts: "npm:^1.4.0"
-    vite: "npm:^7.1.12"
-    vite-plugin-pwa: "npm:^1.1.0"
-    vue: "npm:^3.5.22"
-    vue-eslint-parser: "npm:^10.2.0"
-    vue-tsc: "npm:^3.1.2"
-    web-vitals: "npm:^5.1.0"
-  languageName: unknown
-  linkType: soft
 
 "vue-tsc@npm:^3.1.2":
   version: 3.1.2
