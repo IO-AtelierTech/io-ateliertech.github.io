@@ -1,0 +1,1 @@
+{"name":"My Vue App","short_name":"vue-site","start_url":"/","display":"standalone","background_color":"#ffffff","theme_color":"#8F00FF","lang":"en","scope":"/","icons":[{"src":"pwa-512x512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"pwa-512x512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}
