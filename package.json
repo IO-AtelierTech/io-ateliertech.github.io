@@ -1,0 +1,46 @@
+{
+  "name": "vue-site",
+  "type": "module",
+  "packageManager": "yarn@4.10.3",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --outDir dist",
+    "format": "prettier --list-different --write .",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.ts,.js",
+    "lint:fix": "eslint . --ext .vue,.ts,.js --fix"
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^3.4.2",
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/node": "^24.9.1",
+    "@typescript-eslint/parser": "^8.46.2",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.1",
+    "eslint": "^9.38.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "eslint-plugin-vue": "^10.5.1",
+    "postcss": "^8.5.6",
+    "postcss-import": "^16.1.1",
+    "postcss-nesting": "^13.0.2",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3",
+    "unplugin-fonts": "^1.4.0",
+    "vite": "^7.1.12",
+    "vite-plugin-pwa": "^1.1.0",
+    "vue-eslint-parser": "^10.2.0",
+    "vue-tsc": "^3.1.2",
+    "web-vitals": "^5.1.0"
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
+  }
+}

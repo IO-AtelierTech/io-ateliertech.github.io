@@ -1,0 +1,54 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "src/**/*.ts", "src/**/*.vue"],
+  "compilerOptions": {
+    /* === Output === */
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    /* === Language features === */
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* === Paths and aliases === */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    /* === Type inference and tooling === */
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"]
+  },
+
+  /* === Vue Compiler Options (for vue-language-server) === */
+  "vueCompilerOptions": {
+    "target": 3.3,
+    "strictTemplates": true,
+    "strictVModel": true,
+    "strictCssModules": true,
+    "fallthroughAttributes": false,
+    "checkUnknownProps": true,
+    "checkUnknownEvents": true,
+    "resolveStyleClassNames": "scoped",
+    "inferTemplateDollarRefs": true,
+    "inferTemplateDollarSlots": true,
+    "inferComponentDollarRefs": true,
+    "inferComponentDollarEl": true,
+    "jsxSlots": false,
+    "extensions": [".vue"],
+    "lib": "vue",
+    "fallthroughComponentNames": ["Transition", "KeepAlive", "Teleport", "Suspense"],
+    "dataAttributes": ["data-*"],
+    "htmlAttributes": ["aria-*"]
+  }
+}
