@@ -4,7 +4,6 @@ import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 import path from 'path'
 
-
 export default ({ mode }) => {
   // Load environment variables based on the current mode (dev, production, etc.)
   const env = loadEnv(mode, process.cwd(), '')
@@ -32,8 +31,8 @@ export default ({ mode }) => {
             { name: 'Playfair Display SC' },
             { name: 'Source Code Pro' },
             { name: 'Bungee' },
-          ]
-        }
+          ],
+        },
       }),
       VitePWA({
         registerType: 'autoUpdate',
@@ -65,7 +64,7 @@ export default ({ mode }) => {
             },
           ],
         },
-      })
+      }),
     ],
   })
 }
